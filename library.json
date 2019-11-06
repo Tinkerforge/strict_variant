@@ -1,0 +1,23 @@
+{
+  "name": "strict_variant",
+  "version": "1.0.0",
+  "description": "A realtime/embedded-friendly C++11 variant type which is never empty and prevents undesirable implicit conversions.",
+  "keywords": "variant, polymorphism, container, cpp11, type-safety, union",
+  "authors":
+  [
+    {
+      "name":  "Vinicius de Sá",
+      "url":   "https://github.com/xvinny",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/xvinny/strict_variant.git"
+  },
+  "homepage": "https://github.com/xvinny/strict_variant",
+  "frameworks": [ "arduino" ],
+  "platforms": "*",
+  "examples": "examples/*/*.cpp"
+}
