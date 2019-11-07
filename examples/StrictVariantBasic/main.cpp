@@ -1,3 +1,13 @@
+/**
+ * @file main.cpp
+ * @author Vinicius de Sa
+ * @brief This is a basic example using strict_variant.
+ * @version 0.1
+ * @date 2019-11-07
+ * 
+ * @copyright Copyright (c) 2019
+ * 
+ */
 #include <Arduino.h>
 #include "strict_variant/variant.hpp"
 
