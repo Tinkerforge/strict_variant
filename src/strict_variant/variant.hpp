@@ -171,7 +171,7 @@ private:
     return detail::visitor_dispatch<detail::true_, 1 + sizeof...(Types)>{}(static_cast<unsigned>(m_which), m_storage,
                                                                            visitor);
   }
-
+public:
   /***
    * find_which is used with non-T&& ctors to figure out what "which" should be
    * used for a given type
@@ -183,7 +183,7 @@ private:
                      Types...>::value;
     static_assert(value < (sizeof...(Types) + 1), "No match for value");
   };
-
+private:
   /***
    * Visitors used to implement special member functions and such
    */
