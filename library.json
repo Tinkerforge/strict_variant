@@ -17,7 +17,7 @@
     "url": "https://github.com/xvinny/strict_variant.git"
   },
   "homepage": "https://github.com/xvinny/strict_variant",
-  "frameworks": [ "arduino" ],
+  "frameworks": "*",
   "platforms": "*",
   "examples": "examples/*/*.cpp"
 }
